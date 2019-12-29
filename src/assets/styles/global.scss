@@ -1,0 +1,46 @@
+// card styling
+.card {
+    border-radius: 1px;
+    .card-title {
+        font-weight: $font-weight-bold;
+    }
+    .card-text {
+        text-align: left;
+    }
+    .card-footer {
+        background-color: transparent;
+        border-top: none;
+    }
+}
+
+//button
+.btn-primary {
+    font-weight: $font-weight-bold;
+    color: $white-color;
+    border-color: transparent;
+    border-radius: 1px;
+}
+
+.blue {
+    background-color: $blue-color;
+}
+
+.blue:hover {
+    background-color: $dark-blue-color;
+}
+
+.green {
+    background-color: $green-color;
+}
+
+.green:hover  {
+    background-color: $dark-green-color;
+}
+
+.gold {
+    background-color: $gold-color;
+}
+
+.gold:hover {
+    background-color: $dark-gold-color;
+}

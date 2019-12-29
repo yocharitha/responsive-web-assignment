@@ -1,0 +1,32 @@
+@import '../assets/styles/variables.scss';
+
+.container-fluid {
+    .header-wrapper {
+        padding: 25px 15px 25px 15px;
+        h2 {
+            color: $black-color;
+            font-weight: $font-weight-bold;
+            margin: 0;
+            @media #{$xs-and-less} {
+                font-size: 25px;
+            }
+        }
+        @media #{$sm-and-less} {
+            justify-content: center;
+        }
+        
+    }
+    .card-wrapper {
+        padding: 0px 15px;
+        .card {
+            @media #{$sm-and-less} {
+                text-align: center;
+            }
+            .card-text {
+                @media #{$xs-and-less} {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
